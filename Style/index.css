@@ -6,6 +6,7 @@
   font-family: "Poppins", monospace;
   transition: 0.4s all ease;
 }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -16,6 +17,7 @@ header {
   /* position: fixed; */
   /* width: 8vw; */
 }
+
 .logo {
   font-size: 260px;
   cursor: pointer;
@@ -30,6 +32,7 @@ ul li {
   display: inline-block;
   position: relative;
 }
+
 .navlist {
   display: flex;
   align-items: center;
@@ -62,29 +65,36 @@ nav ul li a:hover {
   /* background: #6d30e9; */
   color: #fe8f9c;
 }
-.dropdown {
-}
+
+.dropdown {}
+
 .dropdown li a:hover {
   color: white;
   background: #284750;
 }
+
 nav ul li:hover ul.dropdown {
   display: block;
 }
+
 .mar {
   margin: 0.5rem 0.1 rem;
 }
+
 #rd {
   color: #fe8f9c;
 }
+
 .login-button {
   display: flex;
   align-items: center;
   gap: 2rem;
 }
+
 .login-button a {
   cursor: pointer;
 }
+
 .login-button button {
   padding: 1rem 2rem;
   border-radius: 39px;
@@ -95,6 +105,7 @@ nav ul li:hover ul.dropdown {
   border: none;
   cursor: pointer;
 }
+
 .login-button button:hover {
   color: blue;
 }
@@ -103,6 +114,7 @@ nav ul li:hover ul.dropdown {
 .aqua {
   background: rgb(204, 248, 234);
 }
+
 section.container {
   background: rgb(204, 248, 234);
   height: 30vh;
@@ -112,6 +124,7 @@ section.container {
   gap: 8rem;
   padding-top: 2rem;
 }
+
 section.container2 {
   background: rgb(204, 248, 234);
   height: 30vh;
@@ -121,45 +134,49 @@ section.container2 {
   gap: 1rem;
   padding-top: 2rem;
 }
+
 section.container2 .hero-image,
 section.container .hero-image {
   height: 7rem;
   width: 7rem;
   background: #000;
-  background-image: url(/Images/first.webp);
+  background-image: url("./Images/first.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 30px;
 }
+
 section.container2 .hero-image2,
 section.container .hero-image2 {
   height: 7rem;
   width: 7rem;
   background: #000;
-  background-image: url(/Images/vote-3.jpg);
+  background-image: url("./Images/vote-3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 30px;
 }
+
 section.container2 .hero-image3,
 section.container .hero-image3 {
   height: 7rem;
   width: 7rem;
   background: #000;
-  background-image: url(/Images/super.jpg);
+  background-image: url("./Images/super.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 30px;
 }
+
 section.container2 .hero-image4,
 section.container .hero-image4 {
   height: 7rem;
   width: 7rem;
   background: #000;
-  background-image: url(/Images/politics.jpg);
+  background-image: url("./Images/politics.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -172,15 +189,18 @@ section.container .hero-image4 {
   /* height: 100vh; */
   padding-bottom: 6rem;
 }
+
 .Popular h1 {
   font-size: 40px;
   text-align: center;
   padding-bottom: 2rem;
 }
+
 .Popular h3 {
   /* font-size: 40px; */
   padding: 0.8rem 0 1.5rem 1rem;
 }
+
 .popular-container {
   background: #284750;
   color: white;
@@ -190,16 +210,18 @@ section.container .hero-image4 {
 
   /* height: 100vh; */
 }
+
 .popular-container .popular-img {
   height: 70vh;
   /* width: 70rem; */
   background: #000;
-  background-image: url(/Images/Trump.webp);
+  background-image: url("./Images/Trump.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 10px;
 }
+
 .Predict {
   display: flex;
   justify-content: center;
@@ -213,6 +235,7 @@ section.container .hero-image4 {
   background: #000;
   color: white;
 }
+
 .Predict:hover {
   color: blue;
 }
@@ -224,6 +247,7 @@ section.container .hero-image4 {
   text-align: center;
   padding-bottom: 2rem;
 }
+
 .Predictions-container {
   display: flex;
   flex-wrap: wrap;
@@ -235,22 +259,26 @@ section.container .hero-image4 {
 .Predictions-card {
   border-radius: 10px;
 }
+
 .Predictions {
   /* height: 100vh; */
   padding-bottom: 3rem;
 }
+
 .Predictions-container .Predictions-card {
   /* height: 100vh; */
   width: 30vw;
   background: #3d6370;
   color: white;
 }
+
 .Predictions-container .Predictions-card .status {
   height: 5rem;
   display: flex;
   align-items: center;
   padding: 0 1rem;
 }
+
 .Predictions-container .Predictions-card .status div {
   border-radius: 10px;
   background: #000;
@@ -258,9 +286,11 @@ section.container .hero-image4 {
   padding: 0.8rem 2rem;
   font-size: large;
 }
+
 .Predictions-container .Predictions-card .status div span {
   font-weight: bold;
 }
+
 .Predictions-card-child {
   height: 100%;
   width: 100%;
@@ -269,14 +299,16 @@ section.container .hero-image4 {
   padding-bottom: 7rem;
   border-radius: 10px;
 }
+
 .Predictions-card-child p {
   font-size: 20px;
   padding: 2rem 2rem;
   height: 5rem;
 }
+
 .prediction-card-img {
   height: 15rem;
-  background-image: url(/Images/p1.jpg);
+  background-image: url("./Images/p1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -284,9 +316,10 @@ section.container .hero-image4 {
   margin: 0 2rem;
   margin-bottom: 8rem;
 }
+
 .prediction-card-img2 {
   height: 15rem;
-  background-image: url(/Images/p2.jpg);
+  background-image: url("./Images/p2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -294,9 +327,10 @@ section.container .hero-image4 {
   margin: 0 2rem;
   margin-bottom: 8rem;
 }
+
 .prediction-card-img3 {
   height: 15rem;
-  background-image: url(/Images/p3.jpg);
+  background-image: url("./Images/p3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -304,9 +338,10 @@ section.container .hero-image4 {
   margin: 0 2rem;
   margin-bottom: 8rem;
 }
+
 .prediction-card-img4 {
   height: 15rem;
-  background-image: url(/Images/p4.webp);
+  background-image: url("./Images/p4.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -314,9 +349,10 @@ section.container .hero-image4 {
   margin: 0 2rem;
   margin-bottom: 8rem;
 }
+
 .prediction-card-img5 {
   height: 15rem;
-  background-image: url(/Images/p1.jpg);
+  background-image: url("./Images/p1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -324,9 +360,10 @@ section.container .hero-image4 {
   margin: 0 2rem;
   margin-bottom: 8rem;
 }
+
 .prediction-card-img6 {
   height: 15rem;
-  background-image: url(/Images/p6.jpg);
+  background-image: url("./Images/p6.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -344,6 +381,7 @@ section.container .hero-image4 {
   border-radius: 30px;
   cursor: pointer;
 }
+
 .Predictions-card-child-button:hover {
   color: blue;
 }
@@ -362,11 +400,13 @@ section.container .hero-image4 {
 .Trending {
   height: 100vh;
 }
+
 .Trending h1 {
   font-size: 40px;
   text-align: center;
   padding-bottom: 2rem;
 }
+
 .trending-card {
   display: flex;
   justify-content: center;
@@ -385,6 +425,7 @@ section.container .hero-image4 {
 section.how-work {
   padding-bottom: 12rem;
 }
+
 .how-work h1 {
   font-size: 40px;
   text-align: center;
@@ -404,6 +445,7 @@ section.how-work {
   justify-content: center;
   align-items: center;
 }
+
 .work-card2 {
   margin-top: 1rem;
   height: 30rem;
@@ -417,9 +459,11 @@ section.how-work {
   justify-content: center;
   align-items: center;
 }
+
 .work-card p {
   padding: 0 1rem;
 }
+
 .sec-card-container,
 .first-card-container {
   display: flex;
@@ -434,7 +478,7 @@ section.how-work {
   height: 10rem;
   width: 10rem;
   background: #000;
-  background-image: url(/Images/about-icon-1.png);
+  background-image: url("./Images/about-icon-1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -445,7 +489,7 @@ section.how-work {
   height: 10rem;
   width: 10rem;
   background: #000;
-  background-image: url(/Images/about-icon-2.png);
+  background-image: url("./Images/about-icon-2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -456,7 +500,7 @@ section.how-work {
   height: 10rem;
   width: 10rem;
   background: #000;
-  background-image: url(/Images/about-icon-3.png);
+  background-image: url("./Images/about-icon-3.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -467,12 +511,13 @@ section.how-work {
   height: 10rem;
   width: 10rem;
   background: #000;
-  background-image: url(/Images/about-icon-4.png);
+  background-image: url("./Images/about-icon-4.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 30px;
 }
+
 .about-card {
   margin-top: 6rem;
   display: flex;
@@ -492,9 +537,11 @@ section.how-work {
 section.ques {
   padding-bottom: 3rem;
 }
+
 .question {
   font-size: 2rem;
 }
+
 .question {
   display: flex;
   align-items: center;
@@ -503,25 +550,29 @@ section.ques {
   height: 50vh;
   /* width: 100vw; */
   background: rgba(0, 0, 0, 1);
-  background-image: url(/Images/question.avif);
+  background-image: url("./Images/question.avif");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 30px;
 }
+
 /* /////////////////////////// subscribe section //////////////////// */
 section.subscribe {
   display: grid;
   place-items: center;
   padding-bottom: 5rem;
 }
+
 section.subscribe p {
   padding: 1rem 12rem;
 }
+
 section.subscribe h1 {
   padding: 2rem 0;
   font-size: 40px;
 }
+
 .sub-buttons button {
   padding: 1rem 3rem;
   background: #000;
@@ -530,6 +581,7 @@ section.subscribe h1 {
   border-radius: 30px;
   cursor: pointer;
 }
+
 .sub-buttons button:hover {
   color: blue;
 }
@@ -539,6 +591,7 @@ section.subscribe h1 {
 section.contact {
   padding: 3rem 12rem;
 }
+
 section.contact .contact-main {
   display: flex;
   align-items: center;
@@ -547,17 +600,19 @@ section.contact .contact-main {
   height: 50vh;
   /* width: 100vw; */
   background: rgba(0, 0, 0, 1);
-  background-image: url(/Images/contact.webp);
+  background-image: url("./Images/contact.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 30px;
   color: white;
 }
+
 section.contact .contact-main p:first-child {
   font-size: 1.6rem;
   color: rgb(1, 39, 1);
 }
+
 section.contact .contact-main .input {
   height: 4rem;
   width: 60vw;
@@ -568,6 +623,7 @@ section.contact .contact-main .input {
   justify-content: center;
   align-items: center;
 }
+
 section.contact .contact-main .input input {
   width: 100%;
   height: 100%;
@@ -578,12 +634,14 @@ section.contact .contact-main .input input {
   color: white;
   font-size: large;
 }
+
 section.contact .contact-main .input p {
   padding: 0.6rem 2rem;
   border-radius: 5px;
   cursor: pointer;
   margin-right: 0.4rem;
 }
+
 /* //////////////////////////////////////foooter section /////////////////////?
  */
 .footer-container {
@@ -593,16 +651,19 @@ section.contact .contact-main .input p {
   align-items: center;
   border-bottom: 1px solid white;
 }
+
 .footer-container .footer-navlist ul {
   display: flex;
   gap: 2rem;
 }
+
 .footer-container .footer-navlist ul li {
   background: #000;
   color: white;
   padding: 0.3rem 0.3rem;
   cursor: pointer;
 }
+
 .bottom-footer {
   border-top: 1px solid rgb(35, 35, 35);
   margin: 2rem 6rem;
@@ -611,19 +672,23 @@ section.contact .contact-main .input p {
   justify-content: space-between;
   align-items: center;
 }
+
 .bottom-footer p {
   border-bottom: 1px solid gray;
   cursor: pointer;
 }
+
 .bottom-footer p:hover {
   border: none;
 }
+
 .bottom-footer ul {
   display: flex;
   /* justify-content: center; */
   /* align-items: center; */
   gap: 3rem;
 }
+
 .bottom-footer ul li {
   display: flex;
   justify-content: center;
